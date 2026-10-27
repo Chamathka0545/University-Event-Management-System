@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang = "en" >
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="home.css">
+      <title>Event Management System admin page</title>
+   </head>
+   
+   <body>
+        <header>
+                <img src="itum logo.png" class="logo">
+                <h1 class="toptitle">Admin - Event Managment</h1>
+         </header>
+         
+       <div class="homemiddle">
+                <div class="mainbuttons">
+                    
+
+                    <a href="home.html">
+                          <button class="homebut" onclick="home.html">Home</button>
+                    </a>
+    
+                    <a href="event.html">
+                          <button class="eventbut" onclick="event.html">Events</button>
+                    </a>
+
+                    <a href="Admin.html">
+                          <button class="adminbut" onclick="Admin.html">Admin</button>
+                    </a>
+                </div>
+
+      <p>This page allows the admin to manage all event activities.The admincan add
+         new event details through the form, view and delete existing events and check 
+         registered student details. 
+      </p>
+
+      
+               <section class="Upload">
+                           <h2>Upload Upcoming Event Details Here</h2>
+                           <form action="/action_page.php" >
+                     
+                                   <div class="Row">  
+                                         <label>Academic Year :</label>
+                                         <select name="dropdown">
+                                              <option value="selectY">Select your Academic Year</option>
+                                              <option value="2023">2023</option>
+                                              <option value="2024">2024</option>
+                                              <option value="2025">2025</option>
+                                         </select>
+                                         <br>
+                                   </div>
+
+                                   <div class="Row">
+                                         <label>Divistion:</label>                     
+                                         <select name="dropdown">
+                                             <option value="selectD">Select your Divition</option>
+                                             <option value="IT">Information Technology</option>
+                                             <option value="civil">Civil Engineering</option>
+                                             <option value="mechanical">Mecanical Engineering</option>
+                                         </select>
+                                         <br>
+                                   </div>
+
+                                   <div class="Row">                       
+                                          <label>Title :</label>
+                                          <input type="text" name="title">
+                                          <br>
+                                   </div>
+
+                                   <div class="Row">
+                                          <label>Description :</label>
+                                          <textarea rows="2" cols="20" name="description"></textarea>
+                                          <br>
+                                   </div>
+
+                                   <div class="Row">
+                                          <label>Date :</label>
+                                          <input type="text" name="date">
+                                          <br>
+                                   </div>
+
+                                   <div class="Row">
+                                          <label>Time :</label>
+                                          <input type="text" name="time">
+                                          <br>
+                                   </div>
+                
+                                  <div class="Row">
+                                          <label>Venue :</label>
+                                          <input type="text" name="venue">
+                                          <br>
+                                  </div>
+      
+                                  <div class="Row">
+                                         <label>Organizer :</label>
+                                         <input type="text" name="organizer">
+                                         <br>
+                                  </div>
+  
+                                 <div class="Row">                     
+                                        <label>Event Id :</label>
+                                        <input type="text" name="eventid"> 
+                                        <br>  
+                                 </div>                                           
+
+                                 <div class="Row">
+                                        <label>Upload Image :</label>
+                                        <input type="file" name="fileupload">
+                                        <br><br>
+                                 </div>
+                       
+                                 <input type="submit" value="Upload Event Details">
+                                        
+                        </form>
+              </section>
+              <br>
+
+         <div class="Details">
+              <div class="recent">
+                      <h2>Existing Event Details</h2>
+                              <table>
+                                   <thead>
+                                        <tr>
+                                           <th>Event ID</th>
+                                           <th>Event Name</th>
+                                           <th>Action</th>
+                                        </tr>
+                                    </thead>
+         
+                                    <tbody>
+                                        <tr>
+                                            <td>E0001</td>
+                                            <td>Tech Innovators Workshop</td>
+                                            <td><button>Delete</button></td>
+                                        </tr>
+
+                                         <tr>
+                                             <td>E0002</td>
+                                             <td>AI Hackathon</td>
+                                             <td><button>Delete</button></td>
+                                         </tr>
+                                     </tbody>
+                   </table>
+              </div>
+              <br>
+
+      <div class="recent">
+            <h2>Details about Participation</h2>
+            <table>
+                       <tr>
+                             <th>Event ID</th>
+                             <th>Event Name</th>
+                             <th>Total Participation</th>
+                       </tr>
+          
+                       <tr>
+                             <td>E0001</td>
+                             <td>Tech Innovators Workshop</td>
+                             <td>145</td>
+                       </tr>
+            </table>  
+      </div>  
+      <br> 
+      <br>
+   </div>    
+
+     <footer>
+                <p>INSTITUTE OF TECHNOLOGY UNIVERSITY OF MORATUWA</p>
+       </footer>
+
+   </body>
+</html>

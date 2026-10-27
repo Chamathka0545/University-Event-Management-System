@@ -1,0 +1,244 @@
+*{
+          font-family:"Arial",sans-serif;
+          margin:10px;
+ }
+
+header{
+          background-color:#BA391A;
+          color:white; 
+          padding:20px;
+          text-align:center;
+       }
+
+body{
+          background-color:white;
+          color:black;
+    }
+
+.logo { 
+          width:140px;
+          vertical-align: middle;
+          float:left;
+      }
+
+.toptitle{
+          display: inline-block;
+          text-align:center;
+          font-size:40px;
+         }
+
+.mainbuttons{
+              display:flex;
+              gap:5px;
+              
+            }
+
+button{
+             background-color:#BA391A;
+             color:white;
+             padding:15px 35px;
+             font-size:18px;
+             border:none;
+             border-radius:10px;
+             box-shadow:0 4px 10px ;
+             cursor:pointer;
+       }
+
+button:hover{
+               transform:scale(1.1);
+               background-color:#DF4620;
+               box-shadow:0 6px 15px ;
+             }
+
+
+
+.content {
+             display:flex;
+             padding:0;
+         }
+
+.text     {
+             padding:12px;
+             margin:12px;
+             text-align:justify;
+           }
+
+.event {
+           display:flex;
+          
+           }
+
+.quickaccess{
+             text-align:center;
+            }
+
+.totalevent{
+            background-color:#F0AA98;
+            color:black;
+            padding:8px;
+            border:none;
+            border-radius:20px;
+            align:center;
+           }
+
+.gt      {
+            display:flex;
+            padding:0;
+         }
+
+footer   {
+            background-color:#3E3837;
+            color:white; 
+            padding:10px;
+            display:flex;
+            justify-content: space-around;
+          }
+
+.icon     {
+          display:flex;
+          }
+
+.follow   {
+           text-align:center;
+          }
+
+.ic      {
+          width:5%;
+          height:5%;
+          cursor:pointer;
+         }
+
+.ic:hover{
+            transform:scale(1.1);
+         }
+
+//admin-style
+
+.recent{
+           display:flex;
+          }
+
+
+
+form {
+            background-color:#E0B3A4;
+            color:black;
+            padding:12px;
+            border:none;
+            border-radius:20px;
+            width:50%;
+            }
+
+label  {
+         background-color:#BA391A;
+         color:white; 
+         padding:5px 10px;
+         text-align:left;
+         display:inline-block;
+         width:160px;
+         border-radius:6px;
+         
+       }
+
+.Row {
+       display:flex;
+       align-items:center;
+       gap:2px;
+       
+     }
+
+input,select,textarea{
+                        flex:1;
+                        padding:5px 10px;
+                        text-align:left;
+                        border-radius:6px;
+                      }
+
+th{
+         background-color:#BA391A;
+         color:white; 
+         padding:5px 10px;
+         text-align:center;
+         margin:10px;
+         width:140px;
+         border-radius:5px;
+
+     }
+
+td{
+         background-color:#F8EFEC;
+         padding:1px 10px;
+         text-align:center;
+         margin:10px;
+         width:140px;
+         border-radius:5px;
+
+     }
+
+//events page -style
+
+.eventbox   {
+               background-color:#E0B3A4;
+               padding:19px;
+               text-align:center;
+
+             }
+
+.eventsection{
+               background-color:#E0B3A4;
+               padding:19px;
+               text-align:center;
+               height:200px;
+               width:200px;
+               cursor:pointer;
+              }
+
+.eventsection:hover{
+                    transform:scale(1.1);
+                   }
+
+.eventcontent{
+               display:flex;
+             }
+
+.eventname {
+             background-color:#BA391A;
+             color:white;
+             padding:5px 20px;
+             font-size:16px;
+             border:none;
+             width:180x;
+             text-align:center;
+           }
+
+.eventimg  {
+              width:180px;
+              vertical-align: middle;
+              height:150px;
+              align:center;
+            }
+
+
+.loingimg  {
+             width:100%;
+           }
+
+.logincontent{
+               display:flex;
+               width:100%
+               center-content: space-around;
+             }
+
+.loginleft  {
+            
+             font-size:30px;
+             font-style:bold;
+             width:100%;
+            }
+
+.loginright {
+             width:100%;
+             text-align:center;
+             }           
+
+
